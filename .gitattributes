@@ -1,2 +1,2 @@
-$ cat .gitattributes
+cat .gitattributes
 *.java linguist-language=Java
