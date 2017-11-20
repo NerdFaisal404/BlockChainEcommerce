@@ -1,3 +1,1 @@
-* linguist-vendored
-$ cat .gitattributes
-Api.elm linguist-generated=true
+*.java linguist-language=Java
