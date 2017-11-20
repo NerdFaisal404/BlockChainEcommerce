@@ -1,2 +1,1 @@
-$ cat .gitattributes
-*.java linguist-language=Java
+* linguist-vendored
