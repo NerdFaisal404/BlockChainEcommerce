@@ -63,7 +63,7 @@ public class MenuListAdapter extends BaseAdapter {
         holder.imgThumb = (ImageView) convertView.findViewById(R.id.imgThumb);
 
         holder.txtText.setText(MenuListActivity.Menu_name.get(position));
-        holder.txtSubText.setText(MenuListActivity.Menu_price.get(position) + " $");
+        holder.txtSubText.setText(MenuListActivity.Menu_price.get(position) + " ৳");
         imageLoader.DisplayImage(BASE_API + MenuListActivity.Menu_image.get(position), holder.imgThumb);
 
         return convertView;
